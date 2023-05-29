@@ -33,3 +33,24 @@ h1 {
 a.active {
   border-bottom: 0.5px solid black;
 }
+
+/* Body images */
+.gallery {
+  padding: 16px;
+}
+.card {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 49.75%;
+  padding: 16px;
+}
+.card img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+.card h2 {
+  font-weight: 300;
+  display: inline-block;
+  margin: 8px 0 16px 0;
+}
