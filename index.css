@@ -1,3 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Cormorant Garamond", serif;
+}
+
+.navbar {
+  margin: 32px;
+}
+
+h1 {
+  display: inline-block;
+  font-weight: 300;
+  margin-right: 32px;
+}
+
+.links {
+  display: inline-block;
+}
+
+.links li {
+  display: inline-block;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 8px;
+}
+a.active {
+  border-bottom: 0.5px solid black;
 }
