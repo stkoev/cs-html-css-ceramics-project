@@ -54,3 +54,30 @@ a.active {
   display: inline-block;
   margin: 8px 0 16px 0;
 }
+.card img:hover {
+  opacity: 0.9;
+}
+
+/* About */
+.about {
+  width: 40%;
+  min-width: 600px;
+  margin: 100px 0 100px 200px;
+}
+.about h3 {
+  font-size: 40px;
+  font-weight: 300;
+}
+.contact {
+  margin-top: 100px;
+}
+.contact p {
+  font-size: 20px;
+}
+
+.cta {
+  margin-top: 10px;
+  border-bottom: 0.5px solid black;
+  padding-bottom: 5px;
+  display: inline-block;
+}
